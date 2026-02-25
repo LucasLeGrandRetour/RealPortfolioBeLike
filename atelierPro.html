@@ -1,0 +1,567 @@
+<!doctype html>
+<html class="no-js" lang="fr">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <title>atelier pro</title>
+    <meta name="description" content="Projets BTS SIO - Lucas Garcia">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="shortcut icon" type="image/x-icon" href="assets/img/favicon.ico">
+
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/css/owl.carousel.min.css">
+    <link rel="stylesheet" href="assets/css/slicknav.css">
+    <link rel="stylesheet" href="assets/css/animate.min.css">
+    <link rel="stylesheet" href="assets/css/hamburgers.min.css">
+    <link rel="stylesheet" href="assets/css/magnific-popup.css">
+    <link rel="stylesheet" href="assets/css/fontawesome-all.min.css">
+    <link rel="stylesheet" href="assets/css/themify-icons.css">
+    <link rel="stylesheet" href="assets/css/slick.css">
+    <link rel="stylesheet" href="assets/css/nice-select.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/responsive.css">
+    <style>
+        .projects-grid {
+            margin-bottom: 60px;
+        }
+
+        .project-card {
+            background-color: #fbf9ff;
+            border: 1px solid #eee;
+            border-radius: 12px;
+            padding: 30px;
+            height: 100%;
+            transition: all 0.3s ease;
+            position: relative;
+            overflow: hidden;
+        }
+
+        .project-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0px 10px 20px 0px rgba(0, 0, 0, 0.05);
+            border-color: #4d0000;
+        }
+
+        .project-card-icon {
+            font-size: 35px;
+            color: #4d0000;
+            margin-bottom: 20px;
+            display: inline-block;
+        }
+
+        .project-title {
+            font-size: 22px;
+            font-weight: 600;
+            color: #2d2d2d;
+            margin-bottom: 15px;
+        }
+
+        .project-desc {
+            color: #707b8e;
+            font-size: 15px;
+            line-height: 1.6;
+            margin-bottom: 25px;
+        }
+
+        .project-tags {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 10px;
+        }
+
+        .project-tag {
+            background-color: rgba(77, 0, 0, 0.05);
+            color: #4d0000;
+            font-size: 12px;
+            font-weight: 500;
+            padding: 5px 12px;
+            border-radius: 20px;
+            border: 1px solid rgba(77, 0, 0, 0.1);
+            transition: all 0.3s ease;
+        }
+
+        .project-card:hover .project-tag {
+            background-color: #4d0000;
+            color: #fff;
+        }
+    </style>
+</head>
+
+<body>
+    <div id="preloader-active">
+        <div class="preloader d-flex align-items-center justify-content-center">
+            <div class="preloader-inner position-relative">
+                <div class="preloader-circle"></div>
+                <div class="preloader-img pere-text">
+                    <img src="assets/img/logo/loder.png" alt="">
+                </div>
+            </div>
+        </div>
+    </div>
+    <header>
+        <div class="header-area header-transparent">
+            <div class="main-header header-sticky">
+                <div class="container-fluid">
+                    <div class="menu-wrapper d-flex align-items-center justify-content-between">
+                        <div class="logo">
+                            <a href="index.html"><img src="assets/img/logo/logo.png" alt=""></a>
+                        </div>
+                        <div class="main-menu f-right d-none d-lg-block">
+                            <nav>
+                                <ul id="navigation">
+                                    <li><a href="index.html">accueil</a></li>
+                                    <li><a href="CV.html">CV</a></li>
+                                    <li class="active"><a href="atelierPro.html">Projets</a></li>
+                                    <li><a href="">Stage</a>
+                                        <ul class="submenu">
+                                            <li><a href="stage1.html">stage de 1ère année</a></li>
+                                            <li><a href="stage2.html">stage de 2ème année</a></li>
+                                        </ul>
+                                    </li>
+                                    <li><a href="">Veille</a>
+                                        <ul class="submenu">
+                                            <li><a href="veille1.html">Première Veille</a></li>
+                                            <li><a href="veille2.html">Deuxième Veille</a></li>
+                                        </ul>
+                                    </li>
+                                    <li><a href="competence.html">Compétence</a></li>
+                                </ul>
+                            </nav>
+                        </div>
+                        <!-- Header-btn -->
+                        <div class="header-info-right d-none d-lg-block">
+                            <a href="contact.html" class="btn header-btn">Me contacter <i
+                                    class="ti-arrow-right"></i></a>
+                        </div>
+                        <div class="col-12">
+                            <div class="mobile_menu d-block d-lg-none"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <main>
+        <div class="hero-area2 d-flex align-items-center">
+            <div class="container">
+                <div class="row ">
+                    <div class="col-xl-12">
+                        <div class="hero-cap pt-100">
+                            <h2>Projets</h2>
+                            <p>Projets & Compétences BTS SIO</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="whole-wrap">
+            <div class="container box_1170">
+
+                <!-- Section Projets de Cours -->
+                <div class="section-top-border projects-grid">
+                    <h3 class="mb-40" style="color: #4d0000;"><i class="fas fa-university mr-2"></i> Projets de Cours
+                    </h3>
+                    <div class="row">
+                        <!-- Projet 1 : Locaboard -->
+                        <div class="col-lg-6 col-md-6 mb-4">
+                            <div class="project-card">
+                                <div class="project-card-icon">
+                                    <i class="fas fa-home"></i>
+                                </div>
+                                <h4 class="project-title">Projet Locaboard</h4>
+                                <p class="project-desc">Construction d'un site dynamique avec HTML, CSS, PHP et
+                                    JavaScript. Valorisation de l'image de l'organisation.</p>
+                                <div class="project-tags">
+                                    <span class="project-tag">HTML/CSS</span>
+                                    <span class="project-tag">PHP</span>
+                                    <span class="project-tag">JavaScript</span>
+                                </div>
+                                
+                            </div>
+                        </div>
+
+                        <!-- Projet 2 : Boutique Pic du Midi -->
+                        <div class="col-lg-6 col-md-6 mb-4">
+                            <div class="project-card">
+                                <div class="project-card-icon">
+                                    <i class="fas fa-shopping-cart"></i>
+                                </div>
+                                <h4 class="project-title">Site Boutique Pic du Midi</h4>
+                                <p class="project-desc">Création d'une boutique en ligne avec CMS WordPress. Gestion de
+                                    la charte graphique et mise en place des sauvegardes régulières.</p>
+                                <div class="project-tags">
+                                    <span class="project-tag">WordPress</span>
+                                    <span class="project-tag">WooCommerce</span>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Projet 3 : Netcar -->
+                        <div class="col-lg-6 col-md-6 mb-4">
+                            <div class="project-card">
+                                <div class="project-card-icon">
+                                    <i class="fas fa-car"></i>
+                                </div>
+                                <h4 class="project-title">Projet Netcar</h4>
+                                <p class="project-desc">Développement d'une solution applicative en utilisant
+                                    l'architecture MVC, la gestion de versions avec Git et les bases de données SQL.</p>
+                                <div class="project-tags">
+                                    <span class="project-tag">MVC</span>
+                                    <span class="project-tag">Git</span>
+                                    <span class="project-tag">SQL</span>
+                                </div>
+                              
+                            </div>
+                        </div>
+
+                        <!-- Projet 4 : App Gestion -->
+                        <div class="col-lg-6 col-md-6 mb-4">
+                            <div class="project-card">
+                                <div class="project-card-icon">
+                                    <i class="fas fa-database"></i>
+                                </div>
+                                <h4 class="project-title">Application de Gestion</h4>
+                                <p class="project-desc">Conception d'une application web pour la gestion des étudiants
+                                    avec les stacks technologiques LAMP/LEMP déployées sur Ubuntu Server.</p>
+                                <div class="project-tags">
+                                    <span class="project-tag">LAMP</span>
+                                    <span class="project-tag">Ubuntu</span>
+                                </div>
+                                
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Section Projets Perso -->
+                <div class="section-top-border projects-grid">
+                    <h3 class="mb-40" style="color: #4d0000;"><i class="fas fa-user-astronaut mr-2"></i> Projets
+                        Personnels</h3>
+                    <div class="row">
+                        <!-- Projet Perso 1 : Morpion -->
+                        <div class="col-lg-6 col-md-6 mb-4">
+                            <!-- Remplacez le href="#" par le lien de votre jeu -->
+                            
+                                <div class="project-card" style="cursor: pointer;">
+                                    <div class="project-card-icon">
+                                        <i class="fas fa-gamepad"></i>
+                                    </div>
+                                    <h4 class="project-title">Jeu du Morpion (Multijoueur)</h4>
+                                    <p class="project-desc">Création d'un jeu de Tic-Tac-Toe interactif et jouable en
+                                        multijoueur ( en local pour l'instant ). Cliquez sur cette carte pour l'essayer
+                                        !</p>
+                                    <div class="project-tags">
+                                        <span class="project-tag">HTML/CSS</span>
+                                        <span class="project-tag">JavaScript</span>
+                                        <span class="project-tag">Multijoueur</span>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+
+                        <!-- Projet Perso 2 : Mod Jeu en Lua -->
+                        <div class="col-lg-6 col-md-6 mb-4">
+                            <div class="project-card">
+                                <div class="project-card-icon">
+                                    <i class="fas fa-keyboard"></i>
+                                </div>
+                                <h4 class="project-title">Modding Jeu (Actions Clavier) - En cours</h4>
+                                <p class="project-desc">Développement d'un mod en Lua pour un jeu vidéo visant à
+                                    associer
+                                    des actions de jeu spécifiques à des touches précises du clavier. Projet
+                                    actuellement en cours de développement.</p>
+                                <div class="project-tags">
+                                    <span class="project-tag">Lua</span>
+                                    <span class="project-tag">Modding</span>
+                                    <span class="project-tag">Keybinding</span>
+                                </div>
+                               
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Tableau de Synthèse (Détails) -->
+                <div class="section-top-border">
+                    <div
+                        style="text-align: center; margin-bottom: 20px; display: flex; justify-content: center; gap: 15px; flex-wrap: wrap;">
+                        <button id="toggle-synthesis-btn" class="btn"
+                            style="background-color: #4d0000; color: white; padding: 12px 30px; border-radius: 30px; border: none; font-size: 16px; cursor: pointer; transition: all 0.3s; display: inline-flex; align-items: center; gap: 10px;">
+                            <span>Tableau de Synthèse - Ateliers Professionnels BTS SIO</span>
+                            <i class="fas fa-chevron-down" id="toggle-icon" style="transition: transform 0.3s;"></i>
+                        </button>
+                       
+                    </div>
+
+                    <div id="synthesis-container"
+                        style="max-height: 0; overflow: hidden; transition: max-height 0.6s ease-out;">
+                        <div class="progress-table-wrap" style="margin-top: 20px;">
+                            <table class="table table-bordered table-striped" style="margin-bottom: 0;">
+                                <thead style="background-color: #4d0000; color: white;">
+                                    <tr>
+                                        <th colspan="4" class="text-center" style="font-size: 1.2em;">SEMESTRE 1</th>
+                                    </tr>
+                                    <tr>
+                                        <th scope="col" style="width: 15%;">Titre du projet</th>
+                                        <th scope="col" style="width: 15%;">Langages / Outils</th>
+                                        <th scope="col" style="width: 25%;">Notions</th>
+                                        <th scope="col" style="width: 45%;">Compétences</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td class="font-weight-bold">Site Web personnel (CV)</td>
+                                        <td>HTML / CSS / JS</td>
+                                        <td>
+                                            <ul class="unordered-list">
+                                                <li>Construction de pages Web statiques</li>
+                                                <li>Navigation entre les pages</li>
+                                                <li>Mise en place d’un menu</li>
+                                            </ul>
+                                        </td>
+                                        <td>
+                                            <p><strong>1.3 Développement de la présence en ligne de
+                                                    l’organisation</strong><br>
+                                                1.3.1. Participer à la valorisation de l’image de l’organisation sur les
+                                                médias numériques</p>
+                                            <p><strong>1.6 Organisation de son développement professionnel</strong><br>
+                                                1.6.3 Gérer son identité professionnelle<br>
+                                                1.6.4 Développer son projet professionnel</p>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td class="font-weight-bold">Projet Locaboard</td>
+                                        <td>HTML / CSS / PHP / PDO</td>
+                                        <td>
+                                            <ul class="unordered-list">
+                                                <li>Construction d’un site dynamique</li>
+                                            </ul>
+                                        </td>
+                                        <td>
+                                            <p><strong>1.3 Développement de la présence en ligne de
+                                                    l’organisation</strong><br>
+                                                1.3.1 Participer à la valorisation de l’image de l’organisation sur les
+                                                médias numériques</p>
+                                        </td>
+                                    </tr>
+                                </tbody>
+
+                                <tbody>
+                                    <tr>
+                                        <td colspan="4" style="background-color: #fff; border: none; height: 30px;">
+                                        </td>
+                                    </tr>
+                                </tbody>
+
+                                <thead style="background-color: #4d0000; color: white;">
+                                    <tr>
+                                        <th colspan="4" class="text-center" style="font-size: 1.2em;">SEMESTRE 2</th>
+                                    </tr>
+                                    <tr>
+                                        <th scope="col">Titre du projet</th>
+                                        <th scope="col">Langages / Outils</th>
+                                        <th scope="col">Notions</th>
+                                        <th scope="col">Compétences</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td class="font-weight-bold">Projet Boutique Pic du Midi</td>
+                                        <td>CMS (WordPress) / GANT / HTML / CSS / PHP</td>
+                                        <td>
+                                            <ul class="unordered-list">
+                                                <li>Sauvegarde et restauration</li>
+                                                <li>CMS WordPress : fonctionnalités et paramétrages</li>
+                                                <li>Respecter une charte graphique</li>
+                                                <li>Outil de gestion de projet : fonctionnalités et paramétrage</li>
+                                            </ul>
+                                        </td>
+                                        <td>
+                                            <p><strong>1.1 Gérer le patrimoine informatique</strong><br>
+                                                1.1.1. Gérer des sauvegardes</p>
+                                            <p><strong>1.3 Développement de la présence en ligne de
+                                                    l’organisation</strong><br>
+                                                1.3.1. Participer à la valorisation de l’image de l’organisation sur les
+                                                médias numériques.<br>
+                                                1.3.2. Participer à l’évolution d’un site Web exploitant les données de
+                                                l’organisation</p>
+                                            <p><strong>1.4 Travailler en mode projet</strong><br>
+                                                1.4.1. Planifier les activités</p>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td class="font-weight-bold">Projet Netcar</td>
+                                        <td>HTML / CSS / GIT / NETBEANS</td>
+                                        <td>
+                                            <ul class="unordered-list">
+                                                <li>Langage d’interrogation de données – SQL partie LID</li>
+                                            </ul>
+                                        </td>
+                                        <td>
+                                            <p><strong>1.3 Développement de la présence en ligne de
+                                                    l’organisation</strong><br>
+                                                1.3.2. Participer à l’évolution d’un site Web exploitant les données de
+                                                l’organisation</p>
+                                            <p><strong>2.1. Conception et développement d’une solution
+                                                    applicative</strong><br>
+                                                2.1.1. Intégration continue des versions d’une solution applicative</p>
+                                            <p><strong>2.1. Participer à la conception de l’architecture d’une solution
+                                                    applicative</strong><br>
+                                                2.1.1. Architecture MVC – Modèle Vue Controleur</p>
+                                        </td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <div class="footer-wrappr">
+            <div class="footer-top">
+                <section class="wantToWork-area ">
+                    <div class="container">
+                        <div class="wants-wrapper w-padding2">
+                            <div class="row align-items-center justify-content-between">
+                                <div class="col-xl-7 col-lg-9 col-md-8">
+                                    <div class="wantToWork-caption wantToWork-caption2">
+                                        <h2>Me contacter</h2>
+                                    </div>
+                                </div>
+                                <div class="col-xl-2 col-lg-3 col-md-4">
+                                    <a href="assets/docs/CV_Lucas_Garcia.pdf" target="_blank"
+                                        class="btn white-btn f-right sm-left">Télécharger mon CV</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-12">
+                            <div class="form-wrapper">
+                                <div class="row ">
+                                    <div class="col-xl-12">
+                                        <div class="small-tittle mb-30">
+
+                                        </div>
+                                    </div>
+                                </div>
+                                <form id="contact-form" action="#" method="POST">
+                                    <div class="row">
+                                        <div class="col-lg-4 col-md-6">
+                                            <div class="form-box user-icon mb-25">
+                                                <input type="text" name="name" placeholder="Nom">
+                                            </div>
+                                        </div>
+                                        <div class="col-lg-4 col-md-6">
+                                            <div class="form-box email-icon mb-25">
+                                                <input type="text" name="email" placeholder="Email">
+                                            </div>
+                                        </div>
+                                        <div class="col-lg-4 col-md-6">
+                                            <div class="form-box email-icon mb-25">
+                                                <input type="text" name="subject" placeholder="Sujet">
+                                            </div>
+                                        </div>
+                                        <div class="col-lg-12">
+                                            <div class="form-box message-icon mb-25">
+                                                <textarea name="message" id="message" placeholder="Message"></textarea>
+                                            </div>
+                                            <div class="submit-info">
+                                                <button class="submit-btn2" type="submit">Envoyer</button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom-area">
+                <div class="container">
+                    <div class="footer-border">
+                        <div class="row align-items-center">
+                            <div class="col-xl-12">
+                                <div class="footer-copy-right text-center">
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <div id="back-top">
+        <a title="Go to Top" href="#"> <i class="fas fa-level-up-alt"></i></a>
+    </div>
+
+    <script src="./assets/js/vendor/modernizr-3.5.0.min.js"></script>
+    <script src="./assets/js/vendor/jquery-1.12.4.min.js"></script>
+    <script src="./assets/js/popper.min.js"></script>
+    <script src="./assets/js/bootstrap.min.js"></script>
+    <script src="./assets/js/jquery.slicknav.min.js"></script>
+    <script src="./assets/js/owl.carousel.min.js"></script>
+    <script src="./assets/js/slick.min.js"></script>
+    <script src="./assets/js/wow.min.js"></script>
+    <script src="./assets/js/animated.headline.js"></script>
+    <script src="./assets/js/jquery.magnific-popup.js"></script>
+    <script src="./assets/js/gijgo.min.js"></script>
+    <script src="./assets/js/jquery.nice-select.min.js"></script>
+    <script src="./assets/js/jquery.sticky.js"></script>
+    <script src="./assets/js/jquery.counterup.min.js"></script>
+    <script src="./assets/js/waypoints.min.js"></script>
+    <script src="./assets/js/jquery.countdown.min.js"></script>
+    <script src="./assets/js/hover-direction-snake.min.js"></script>
+    <script src="./assets/js/contact.js"></script>
+    <script src="./assets/js/jquery.form.js"></script>
+    <script src="./assets/js/jquery.validate.min.js"></script>
+    <script src="./assets/js/mail-script.js"></script>
+    <script src="./assets/js/jquery.ajaxchimp.min.js"></script>
+    <script src="./assets/js/plugins.js"></script>
+    <script src="./assets/js/main.js"></script>
+
+    <script>
+        document.addEventListener('DOMContentLoaded', function () {
+            const toggleBtn = document.getElementById('toggle-synthesis-btn');
+            const container = document.getElementById('synthesis-container');
+            const icon = document.getElementById('toggle-icon');
+
+            toggleBtn.addEventListener('click', function () {
+                if (container.style.maxHeight === '0px' || container.style.maxHeight === '') {
+                    // Open animation
+                    container.style.maxHeight = container.scrollHeight + "px";
+                    icon.style.transform = "rotate(180deg)";
+
+                    // Update text slightly for better UX
+                    this.querySelector('span').innerText = "Masquer le Tableau de Synthèse - Ateliers Pro";
+
+                    // Keep max-height flexible after animation completes to handle viewport resizes
+                    setTimeout(() => {
+                        if (container.style.maxHeight !== '0px') {
+                            container.style.maxHeight = 'none';
+                        }
+                    }, 600);
+                } else {
+                    // Close animation
+                    // First set exact height so transition works downwards
+                    container.style.maxHeight = container.scrollHeight + "px";
+
+                    // Force browser reflow
+                    void container.offsetHeight;
+
+                    container.style.maxHeight = '0px';
+                    icon.style.transform = "rotate(0deg)";
+                    this.querySelector('span').innerText = "Tableau de Synthèse - Ateliers Professionnels BTS SIO";
+                }
+            });
+        });
+    </script>
+</body>
+
+</html>
