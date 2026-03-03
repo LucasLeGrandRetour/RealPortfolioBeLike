@@ -21,6 +21,19 @@
     <link rel="stylesheet" href="assets/css/nice-select.css">
     <link rel="stylesheet" href="assets/css/style.css">
     <link rel="stylesheet" href="assets/css/responsive.css">
+    <style>
+        .blog_item_img img {
+            width: auto !important;
+            margin: 0 auto !important;
+            display: block !important;
+            max-height: 450px;
+            padding: 20px;
+        }
+
+        .blog_item_img {
+            background-color: #f9f9f9;
+        }
+    </style>
 </head>
 
 <body>
@@ -124,10 +137,11 @@
                                 </div>
                                 <div class="blog_details">
                                     <a class="d-inline-block" href="#">
-                                        <h2 class="blog-head" style="color: #2d2d2d;">Semaine 1 : Architecture
-                                            logicielle et Base de données</h2>
+                                        <h2 class="blog-head" style="color: #2d2d2d;">Architecture logicielle et Base de
+                                            données</h2>
                                     </a>
-                                    <p>J'ai débuté mon stage par l'analyse des besoins et la conception de la base de
+                                    <p>J'ai d'abord débuté mon stage par l'analyse des besoins et la conception de la
+                                        base de
                                         données relationnelle (MySQL). J'ai créé le script d'initialisation
                                         (<code>Argitik_bd</code>) comprenant les tables <code>Prestations</code> et
                                         <code>contact</code>. Pour assurer une base de code propre et évolutive, j'ai
@@ -145,10 +159,10 @@
                                 </div>
                                 <div class="blog_details">
                                     <a class="d-inline-block" href="#">
-                                        <h2 class="blog-head" style="color: #2d2d2d;">Semaine 2 : Intégration Front-End
-                                            et Responsive Design</h2>
+                                        <h2 class="blog-head" style="color: #2d2d2d;">Intégration Front-End et
+                                            Responsive Design</h2>
                                     </a>
-                                    <p>La deuxième semaine a été consacrée à l'intégration de l'interface utilisateur.
+                                    <p>L'étape suivante a été consacrée à l'intégration de l'interface utilisateur.
                                         J'ai structuré les pages en HTML5 et modulé le code PHP
                                         (<code>header.php</code>, <code>footer.php</code>) pour éviter les redondances.
                                         J'ai rédigé les feuilles de style CSS (<code>base.css</code>,
@@ -170,8 +184,8 @@
                                 </div>
                                 <div class="blog_details">
                                     <a class="d-inline-block" href="#">
-                                        <h2 class="blog-head" style="color: #2d2d2d;">Semaine 3 : Développement Back-End
-                                            et Affichage Dynamique</h2>
+                                        <h2 class="blog-head" style="color: #2d2d2d;">Développement Back-End et
+                                            Affichage Dynamique</h2>
                                     </a>
                                     <p>Ensuite, je me suis concentré sur la liaison entre la base de données et
                                         l'interface. J'ai développé la classe <code>BaseService.php</code> permettant de
@@ -189,10 +203,10 @@
                                 </div>
                                 <div class="blog_details">
                                     <a class="d-inline-block" href="#">
-                                        <h2 class="blog-head" style="color: #2d2d2d;">Semaine 4 : Système de Réservation
-                                            et Sécurité</h2>
+                                        <h2 class="blog-head" style="color: #2d2d2d;">Système de Réservation et Sécurité
+                                        </h2>
                                     </a>
-                                    <p>L'enjeu de cette semaine était la création du système de prise de contact. J'ai
+                                    <p>L'enjeu majeur suivant était la création du système de prise de contact. J'ai
                                         développé la page <code>reservation.php</code> contenant un formulaire détaillé
                                         (coordonnées, détails du projet, disponibilités). Côté back-end, j'ai créé la
                                         classe métier <code>Reservation.php</code> et son DAO
@@ -211,8 +225,8 @@
                                 </div>
                                 <div class="blog_details">
                                     <a class="d-inline-block" href="#">
-                                        <h2 class="blog-head" style="color: #2d2d2d;">Semaine 5 : Notifications Email,
-                                            RGPD et Déploiement</h2>
+                                        <h2 class="blog-head" style="color: #2d2d2d;">Notifications Email, RGPD et
+                                            Déploiement</h2>
                                     </a>
                                     <p>Pour finaliser le système de réservation, j'ai intégré la bibliothèque
                                         <code>PHPMailer</code>. Lorsqu'un client valide le formulaire, une notification
