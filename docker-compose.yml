@@ -5,5 +5,5 @@ services:
     image: lucaslegrandretour/portfolio:latest
     container_name: portfolio-lucas
     ports:
-      -"3001:80"
+      - "3001:80"
     restart: always
