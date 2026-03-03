@@ -3,7 +3,8 @@ version: '3.8'
 services:
   portfolio:
     build: .
+    image: portfolio-lucas:latest
     container_name: portfolio-lucas
     ports:
       - "8080:80"
-    restart: unless-stopped
+    restart: always
